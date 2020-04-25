@@ -4,6 +4,9 @@
       .container
         .navbar-brand
           a(href='/').navbar-item
+            figure.image.is-32x32
+              img(src='favicon.ico')
+          a(href='/').navbar-item
             b.has-text-white unifonts
     section.section
       .container
@@ -42,6 +45,6 @@ pre, textarea {
   font-family: serif;
   font-size: inherit!important;
   max-height: fit-content!important;
-  padding: calc(0.75em - 1px);
+  padding: calc(.5em - 1px) calc(0.75em - 1px);
 }
 </style>
